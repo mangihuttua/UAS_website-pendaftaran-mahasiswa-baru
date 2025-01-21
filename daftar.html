@@ -1,0 +1,182 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-white fixed-top">
+        <div class="container pt-3 ">
+          <img src="images/logo.png" alt="logo-ibbi" style="width:80px ;height:60px;">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+           data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" 
+           aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="nav nav-underline ms-auto">
+              <li class="nav-item">
+                <a class="nav-link fw-semibold text-dark" aria-current="page" href="projek_uas.html">Home</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link  fw-semibold text-dark " href="fasilitas.html">Fasilitas</a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link fw-semibold text-dark" href="prodi.html">Program Studi</a>
+              </li>
+            </ul>
+          </div>
+        </div>              
+</nav>
+
+    <section class=" ratio ratio-4x3" style="background:url('./images/ibbi-student.jpg') no-repeat center center/cover;">
+        <div class="row">
+            <div class="d-flex justify-content-center align-items-center h-100">
+                <div class="col-lg-6">
+                    <div class="text-center">
+                        <h1 class="text-white fw-bolder text-uppercase">form penerimaan mahasiswa baru</h1>
+                        <p class="text-white  mb-4">
+                          The future is your define,but education is the vechile that will bring you there.
+                        </p>
+                    </div>
+                </div>    
+            </div> 
+    </section>
+
+    <section class="mt-5">
+        <div class="container">
+        <form>
+            <div class="row mb-3">
+              <label for="inputEmail3" class="col-sm-4 col-form-label">Nama</label>
+              <div class="col-sm-8">
+                <input type="nama" class="form-control" id="inputEmail3">
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label for="inputPassword3" class="col-sm-4 col-form-label">Tempat Lahir</label>
+              <div class="col-sm-8">
+                <input type="tpl" class="form-control" id="inputPassword3">
+              </div>
+            </div>
+            <div class="row mb-3">
+                <label for="inputPassword3" class="col-sm-4 col-form-label">Tgl.Lahir</label>
+                <div class="col-sm-8">
+                  <input type="date" class="form-control" id="inputPassword3">
+                </div>
+              </div>
+              <fieldset class="row mb-3">
+                <legend class="col-form-label col-sm-4 pt-0">Radios</legend>
+                <div class="col-sm-8">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                    <label class="form-check-label" for="gridRadios1">
+                      Laki-laki
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                    <label class="form-check-label" for="gridRadios2">
+                      Perempuan
+                    </label>
+                  </div>
+                </div>
+              </fieldset>
+              <div class="row mb-3">
+                <label for="inputPassword3" class="col-sm-4 col-form-label">Alamat</label>
+                <div class="col-sm-8">
+                  <input type="password" class="form-control" id="inputPassword3">
+                </div>
+              </div>
+              <div class="row mb-3">
+                <label for="inputPassword3" class="col-sm-4 col-form-label">Asal Sekolah</label>
+                <div class="col-sm-8">
+                  <input type="password" class="form-control" id="inputPassword3">
+                </div>
+              </div>
+              <div class="row mb-3">
+                <label for="inputPassword3" class="col-sm-4 col-form-label">No.Hp</label>
+                <div class="col-sm-8">
+                  <input type="password" class="form-control" id="inputPassword3">
+                </div>
+              </div>
+              <div class="row mb-3">
+                <label for="inputPassword3" class="col-sm-4 col-form-label">E-mail</label>
+                <div class="col-sm-8">
+                  <input type="password" class="form-control" id="inputPassword3">
+                </div>
+              </div>
+              <div class="col-12">
+                <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
+                <select class="form-select" id="inlineFormSelectPref">
+                  <option selected>Program Studi</option>
+                  <option value="1">Information System</option>
+                  <option value="2">Information Technology</option>
+                  <option value="3">Computer Science</option>
+                  <option value="4">Accounting</option>
+                  <option value="5">Management</option>
+                </select>
+              </div>
+              <div class="col-12 mt-2">
+                <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
+                <select class="form-select" id="inlineFormSelectPref">
+                  <option selected>Kelas</option>
+                  <option value="1">Pagi</option>
+                  <option value="2">Malam</option>
+                </select>
+              </div>
+            <div class="row mb-3">
+              <div class="col-sm-8 offset-sm-2">
+              </div>
+            </div>
+            <div class="d-flex flex-column justify-content-center align-items-center">
+                <a href="#menu" class="btn btn-primary mt-4">Daftar</a>
+            </div>
+          </form>
+        </div>
+    </section>
+
+    <section class="btn-gr">
+        <div class="container">
+          <div class="row ">
+            <div class="col-lg-3 mt-5">
+              <h1 class="text-white" style="font-family:Impact;">IBBI University</h1>
+            </div>
+      
+            <div class="col-lg-3 mt-5">
+              <p class="text-white fs-6">Jalan Sei Deli No.18 Medan,
+                Sumatra Utara, Indonesia, 20114
+                T. (061)4567111</p>
+            </div>
+      
+      </div>
+      </div>
+      </div>
+      </section>
+      
+      <footer class="bg-light">
+        <div class="container">
+          <divc class="row">
+            <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+            <div class="col-lg-6 mt-3">
+             <p class="fs-5 text-secodary text-center"> &copy; 2024 IBBI University</p>
+             <p class="text-secodary  text-center mb-5">Jalan Sei Deli No.18 Medan, Sumatra Utara, Indonesia, 20114 T. (061)4567111</p>
+              <a href="" class="text-dark"><i class="bi bi-instagram fs-4"></i></a>
+              <a href="" class="text-dark"><i class="bi bi-facebook fs-4"></i></a>
+              <a href="" class="text-dark"><i class="bi bi-twitter fs-4"></i></a>
+              <a href="" class="text-dark"><i class="bi bi-youtube fs-4 "></i></a>
+           
+            </div>
+            </div>
+           
+      </div>
+      </div>
+      </footer>
+    
+</body>
+</html>
